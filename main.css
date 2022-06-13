@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+body {
+    background-color: #202124;
+    color: #fff;
+}
+
+.flex-center {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    border-bottom: 1px solid grey;
+    min-height: 15vh;
+}
+
+.pbar {
+    min-height: 8vh;
+}
+
+.tasklist {
+    flex-direction: column;
+    item-margin: 20px;
+}
+.task {
+    border: 1px solid grey;
+    margin: 10px;
+    justify-content: left;
+    padding: 5px;
+}
+
+p {
+    padding: 10px;
+    min-width: 150px;
+}
+
+input {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+    font-size: 1rem;
+    background: #fff;
+}
+
+progress {
+    padding: 1px;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: lightblue;
+}
+select,
+button {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+    font-size: 1rem;
+}
+
+.disabled {
+    background: #6c757d;
+    color: #fff;
+}
+
+.enabled {
+    background: #007bff;
+    cursor: pointer;
+    color: #fff;
+}
+
+.danger {
+    background: #dc3545;
+    cursor: pointer;
+    color: #fff;
+}

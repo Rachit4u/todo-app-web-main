@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>TODO APP</title>
+        <link
+            rel="icon"
+            href="./favicon.ico"
+            type="image/vnd.microsoft.icon"
+            sizes="48x48"
+        />
+        <link rel="stylesheet" href="./css/main.css" />
+        <script src="./js/main.js" defer></script>
+    </head>
+    <body>
+        <div class="flex-center title">
+            <h1>TODO APP</h1>
+        </div>
+
+        <div class="flex-center title">
+            <input
+                type="text"
+                id="new-task-box-title"
+                placeholder="Task title"
+            />
+            <input type="date" id="new-task-box-date" />
+            <button class="disabled" id="new-task-btn">Add Task</button>
+        </div>
+
+        <div class="flex-center pbar">
+            <span id="pbar-text"></span>
+            <progress id="pbar" value="0" max="100"></progress>
+            <label for="show-type">Show:</label>
+            <select name="show-type" id="show-type">
+                <option value="all">All</option>
+                <option value="active">Active</option>
+                <option value="completed">Completed</option>
+            </select>
+        </div>
+
+        <div class="flex-center tasklist" id="task-list"></div>
+    </body>
+</html>
