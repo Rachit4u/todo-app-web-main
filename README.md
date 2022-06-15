@@ -1,6 +1,6 @@
 # Todo App Web
 
-Deployed Live (https://Rachit4u.github.io/todo-app-web-main/)
+Deployed Live (https://Rachit4u.github.io/todo-app-web-main)
 
 This is a simple todo app made for an assignment by MSS Rainbow for web development internship.
 
